@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    background-color: #4a72b6;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    margin-right: 100px;
+}
+nav ul{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+a:hover{
+    color: black;
+}
+.logo{
+    margin-left:150px;
+}
+.main{
+    margin: 50px 0px;
+}
+/* account page */
+.account-page{
+    padding: 50px 0;
+}
+.form-container{
+    background: #fff;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 0 rgba(0.1, 0.3, 0.4, 0.8);
+    overflow: hidden;
+}
+.row{
+    display: flex;
+    margin-left: 140px;
+}
+.form-container span{
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+.form-btn{
+    display: inline-block;
+}
+.form-container form{
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 160px;
+    transition: transform 1s;
+}
+
+.btn1{
+    background-color: orange;
+    padding: 10px;
+    margin: 15px;
+}
+form .btn{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+form .btn:focus{
+    outline: none;
+}
+#LoginForm{
+    left: -300px;
+}
+#LoginForm a{
+    color: #555;
+    font-size: 12px;
+}
+#RegForm{
+    left: 0;
+}
+form input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    padding: 4px 10px;
+}
+#Indicator{
+    width: 100px;
+    border: none;
+    background: #ff523b;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+    transition: transform 1s;
+}
+
+/* account page */
+
+
+footer{
+    margin-top: 50px;
+    width: 100%;
+    height: 80px;
+    background-color: #efefef;
+    text-align: center;
+    opacity: .87;
+}
+p{
+    padding-top:28px ;
+    color: black;
+}
+@media only screen and (max-width:1252px){
+.form-container{
+    margin: 0 200px;
+}
+}
